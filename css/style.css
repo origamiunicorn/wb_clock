@@ -41,7 +41,10 @@ html {
       width: 10px;
       height: 10px;
       position: absolute;
-      top: 50%;
+      top: 49%;
+      left: 48%;
+      border-radius: 50%;
+      background: black;
   }
 
   .hand {
