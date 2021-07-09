@@ -1,9 +1,12 @@
 const secondHand = document.querySelector('.second-hand'); // select single item from doc
 const minuteHand = document.querySelector('.min-hand');
 const hourHand = document.querySelector('.hour-hand');
+const hand = document.querySelector('.hand');
 
 function setDate() {
     const now = new Date();
+
+    
 
     const seconds = now.getSeconds();
     const secondsDegrees = ((seconds / 60) * 360) + 90; // the 90 offsets our css stlying
