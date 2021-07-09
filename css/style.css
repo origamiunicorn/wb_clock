@@ -43,5 +43,6 @@ html {
     background: black;
     position: absolute;
     top: 50%;
+    transform: rotate(90deg);
     transform-origin: 100%;
   }
